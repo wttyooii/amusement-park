@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+
+<!-- 說明:直接從資料夾開啟，修改後 crtl+S存檔, 再回到資料夾直接點選檔案，F5重新整理 -->
+<div class="progress" style="height: 3px;">
+  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+	<meta charset="utf-8">
+	<!--分頁顯示的名稱 A-3 -->
+	<title>聯絡我們</title>
+	
+<!--  引入自己寫的CSS  A-2-->
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>	
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+	<body>
+		<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">介紹</a>
+						<a class="nav-item nav-link" href="QA.html">QA</a>
+						<a class="nav-item nav-link active" href="contactus.html">聯絡我們</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+		<section id="location">	
+		<div class="container">
+<div class="row">
+<div class="col-4">
+<p class=" p-2 mb-1 text-warning h3">六福村</p>
+				<p class=" p-2 mb-1 text-warning h4">連絡電話:03-547-5665</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.1295131973066!2d121.17841421423388!3d24.825244152783707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683c04ec22e057%3A0x41817b418be9e053!2z5YWt56aP5p2R5Li76aGM6YGK5qiC5ZyS!5e0!3m2!1szh-TW!2stw!4v1623752931108!5m2!1szh-TW!2stw" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		<div class="col-4">
+		<p class=" p-2 mb-1 text-info h3">義大遊樂世界</p>
+				<p class=" p-2 mb-1 text-info h4">連絡電話:07-656-8080</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.930263928028!2d120.40680911418993!3d22.730833232874147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e111bbe79e287%3A0xdf4693162b1707e0!2z576p5aSn6YGK5qiC5LiW55WM!5e0!3m2!1szh-TW!2stw!4v1623754686878!5m2!1szh-TW!2stw" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		</div>
+		<div class="col-4">
+		<p class=" p-2 mb-1 text-success h3">九族文化村</p>
+				<p class=" p-2 mb-1 text-success h4">連絡電話:049-289-5361</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.5765562144925!2d120.94567731421333!3d23.869165690147494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468d68fab1ac707%3A0x578fc49549e644c6!2z5Lmd5peP5paH5YyW5p2R!5e0!3m2!1szh-TW!2stw!4v1623754740538!5m2!1szh-TW!2stw" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		</div>
+		</div>
+		</section>
+		
+	</body>
+	
+	</html>
